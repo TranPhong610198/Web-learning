@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/Sugimoris025.png">
+    
+<!-- "meta" tag  -->
+    
+    <!-- meta use for define type character on website UTF-8 = Unicode -->
+    <meta charset="UTF-8">
+    <!-- meta tag use for scale the website to fit in device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tag use for define keyword for search engines -->
+    <meta name="keyword" content="HTML, CSS, Javascipt">
+    <!-- meta tag use for define a decription of your web page -->
+    <meta name="decription" content="Learning Basic Web HTML CSS JS">
+    <!-- meta tag use for refresh document every 30 seconds -->
+    <meta http-equiv="refresh" content="30">
+    <!-- meta tag use for define the author of page -->
+    <meta name="author" content="Tran Phong">
+
+    <title>Buổi 2.2</title>
+</head>
+<body>
+    <h1>Buổi 2.2</h1>
+
+<!-- iframe = embed content from another source into an HTML document
+                    ex: used for ads, use in many hacking techniques -->
+
+    <iframe src="https://www.bing.com/" width="450" height="500"></iframe><br>
+    <iframe src="ads.html" width="450"></iframe>
+
+<!-- add a button to website -->
+
+    <button onclick="doSomething()" style="background-color: black; color:aqua; width: 100px; border-radius: 5px; "  >Fuck Me</button>
+
+    <p id="test">Hello</p>
+
+    <!-- this is a small code javascript --- just use for test, demo the button -->
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML = "Fuck You";
+        }
+    </script>
+
+<!-- form tag in HTML -->
+
+    <form>
+        <label for="Fisrtname" >Fisrt name:</label>
+        <input id="Fisrtname" type="text" name="Fisrtname" placeholder="Nhập Tên Vô Đây"><br>
+
+        <label for="lastname" >Last name:</label>
+        <input id="lastname" type="text" name="lastname" placeholder="Nhập Họ Vô Đây">
+
+    </form>    
+</body>
+</html>
