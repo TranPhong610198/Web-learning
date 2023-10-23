@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(236, 240, 240);
+}
+
+.container{
+    width: 300px;
+    background-color: white;
+    padding: 16px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 50px 5px grey;
+    transform: translateY(50%);
+}
+
+h1{
+    text-align: center;
+    padding: 8px;
+}
+
+label{
+    display: block;
+    margin-bottom: 4px;
+}
+
+input[type="text"], input[type="password"]{
+    width: 88%;
+    padding: 15px;
+    margin-bottom: 7px;
+    border: 1px solid rgba(35, 32, 32, 0.208);
+    border-radius: 4px;
+    justify-items: center;
+    font-size: medium;
+}
+
+button[type="submit"]{
+    width: 100%;
+    padding: 8px;
+    background-color: #0767ff;
+    color: white;
+    border: hidden;
+    border-radius: 4px;
+    margin-top: 4px;  
+    cursor: pointer; 
+}
+
+button[type="submit"]:hover{
+    background-color: blue;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;    
+}
+
+input[type="checkbox"]{
+    transform: translateY(1px);
+    margin-right: -3px;
+}
+
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(24, 119, 242);
+}
+a:hover{
+    text-decoration: underline;
+}
